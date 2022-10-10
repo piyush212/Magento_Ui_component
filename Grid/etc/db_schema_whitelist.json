@@ -1,0 +1,13 @@
+{
+    "employee_data": {
+        "column": {
+            "id": true,
+            "Name": true,
+            "Email": true,
+            "Mobile": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

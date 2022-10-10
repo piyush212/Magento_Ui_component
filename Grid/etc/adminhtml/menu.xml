@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Codilar_Grid::manager" title="Employee management" module="Codilar_Grid" sortOrder="10" resource="Codilar_Grid::manager"/>
+        <add id="Codilar_Grid::add_row" title="Employee details" module="Codilar_Grid" sortOrder="20" parent="Codilar_Grid::manager" action="grid/grid" resource="Codilar_Grid::add_row"/>
+    </menu>
+</config>
